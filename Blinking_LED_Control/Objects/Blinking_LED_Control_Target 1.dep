@@ -1,0 +1,62 @@
+Dependencies for Project 'Blinking_LED_Control', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6140001::V6.14.1::ARMCLANG
+F (.\MCAL\Gpio.c)(0x63643CFF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./HAL -I ./MCAL -I ./Service -I ./Application -I ./MCAL/Includes-I./RTE/_Target_1-IC:/Users/Abdallah/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Abdallah/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="532" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/gpio.o -MD)
+I (Service\TM4C_Registers.h)(0x63643984)
+I (Service\Platform_Types.h)(0x636439B4)
+I (Service\Common_Macros.h)(0x634EE0DB)
+I (Service\Typedefs.h)(0x636439B6)
+I (MCAL\Includes\Gpio.h)(0x63643942)
+F (.\MCAL\Gpt.c)(0x6364484D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./HAL -I ./MCAL -I ./Service -I ./Application -I ./MCAL/Includes-I./RTE/_Target_1-IC:/Users/Abdallah/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Abdallah/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="532" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/gpt.o -MD)
+I (Service\TM4C_Registers.h)(0x63643984)
+I (Service\Platform_Types.h)(0x636439B4)
+I (MCAL\Includes\Gpt.h)(0x6363B45F)
+I (Service\Typedefs.h)(0x636439B6)
+I (MCAL\Includes\Interrupt.h)(0x636447F5)
+F (.\MCAL\Interrupt.c)(0x63644805)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./HAL -I ./MCAL -I ./Service -I ./Application -I ./MCAL/Includes-I./RTE/_Target_1-IC:/Users/Abdallah/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Abdallah/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="532" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/interrupt.o -MD)
+I (MCAL\Includes\Interrupt.h)(0x636447F5)
+I (Service\TM4C_Registers.h)(0x63643984)
+I (Service\Platform_Types.h)(0x636439B4)
+I (Service\Typedefs.h)(0x636439B6)
+F (.\MCAL\Includes\Gpio.h)(0x63643942)()
+F (.\MCAL\Includes\Gpt.h)(0x6363B45F)()
+F (.\MCAL\Includes\Interrupt.h)(0x636447F5)()
+F (.\MCAL\Includes\SysTick.h)(0x6364394F)()
+F (.\MCAL\SysTick.c)(0x6364395A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./HAL -I ./MCAL -I ./Service -I ./Application -I ./MCAL/Includes-I./RTE/_Target_1-IC:/Users/Abdallah/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Abdallah/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="532" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/systick.o -MD)
+I (MCAL\Includes\SysTick.h)(0x6364394F)
+I (Service\Platform_Types.h)(0x636439B4)
+I (Service\TM4C_Registers.h)(0x63643984)
+F (.\MCAL\Includes\SysTick_Cfg.h)(0x63321423)()
+F (.\MCAL\Includes\SysTick_Types.h)(0x6361C097)()
+F (.\MCAL\Port.c)(0x6364457F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./HAL -I ./MCAL -I ./Service -I ./Application -I ./MCAL/Includes-I./RTE/_Target_1-IC:/Users/Abdallah/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Abdallah/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="532" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/port.o -MD)
+I (MCAL\Includes\Port.h)(0x636445B7)
+I (Service\Platform_Types.h)(0x636439B4)
+I (Service\TM4C_Registers.h)(0x63643984)
+F (.\MCAL\Includes\Port.h)(0x636445B7)()
+F (.\Application\main.c)(0x63644E57)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./HAL -I ./MCAL -I ./Service -I ./Application -I ./MCAL/Includes-I./RTE/_Target_1-IC:/Users/Abdallah/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Abdallah/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="532" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/main.o -MD)
+I (Application\..\Service\Typedefs.h)(0x636439B6)
+I (Application\..\Service\TM4C_Registers.h)(0x63643984)
+I (Service\Platform_Types.h)(0x636439B4)
+I (Application\..\Service\Platform_Types.h)(0x636439B4)
+I (Application\..\Service\Common_Macros.h)(0x634EE0DB)
+I (Application\..\MCAL\Includes\Gpio.h)(0x63643942)
+I (Application\..\MCAL\Includes\Gpt.h)(0x6363B45F)
+I (Service\TM4C_Registers.h)(0x63643984)
+I (Service\Typedefs.h)(0x636439B6)
+I (Application\..\MCAL\\Includes\Interrupt.h)(0x636447F5)
+I (Application\..\MCAL\Includes\SysTick.h)(0x6364394F)
+I (Application\..\MCAL\Includes\Port.h)(0x636445B7)
+F (.\Service\Platform_Types.h)(0x636439B4)()
+F (.\Service\TM4C_Registers.h)(0x63643984)()
+F (.\Service\Common_Macros.h)(0x634EE0DB)()
+F (.\Service\Typedefs.h)(0x636439B6)()
+F (RTE\Device\TM4C123GH6PM\startup_TM4C123.s)(0x51B6E406)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-3 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-IC:/Users/Abdallah/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Abdallah/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-Wa,armasm,--pd,"__UVISION_VERSION SETA 532" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"TM4C123GH6PM SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_tm4c123.o)
+F (RTE\Device\TM4C123GH6PM\system_TM4C123.c)(0x634D1AC7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./HAL -I ./MCAL -I ./Service -I ./Application -I ./MCAL/Includes-I./RTE/_Target_1-IC:/Users/Abdallah/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Abdallah/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="532" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/system_tm4c123.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F5166EE)
+I (C:\Users\Abdallah\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
+I (C:\Users\Abdallah\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (C:\Users\Abdallah\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F9F3E)
+I (C:\Users\Abdallah\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F9F3E)
+I (C:\Users\Abdallah\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F9F3E)
+I (C:\Users\Abdallah\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F9F3E)
+I (C:\Users\Abdallah\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F9F3E)
+I (C:\Users\Abdallah\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6E406)
